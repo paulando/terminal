@@ -1,0 +1,117 @@
+body {
+	color: #ecf0f1;
+	background-color: #1abc9c;
+
+	&#sudo_rm_r {
+		color: #555;
+		background-color: #FFF;
+		font-size: 80px;
+		font-weight: 700;
+		margin-top: 50px;
+		text-align: center;
+	}
+}
+
+$ubuntu-main: #300924;
+$ubuntu-secondary: #464641;
+$ubuntu-border: #ecf0f1;
+$ubuntu-border-width: 1px solid;
+$ubuntu-text: #FFF;
+
+.term-ubuntu {
+	width: 500px;
+	margin: 50px auto;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+	header#term_header {
+		padding: 5px 0;
+		text-align: center;
+		background-color: $ubuntu-secondary;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		border: $ubuntu-border-width $ubuntu-secondary;
+
+		h6 {
+			margin: 0;
+			font-size: 14px;
+		}
+	}
+
+	div#term_body {
+		height: 350px;
+		padding: 5px 5px 30px;
+		border: $ubuntu-border-width $ubuntu-secondary;
+		border-top: none;
+		background-color: $ubuntu-main;
+
+		input#typed_command {
+			border: none;
+			color: $ubuntu-text;
+			background-color: transparent;
+
+			&:focus{
+			    outline: none;
+			}
+		}
+	}
+}
+
+$mac-main: #505254;
+$mac-secondary: #E7E7E7;
+$mac-third: #E16662;
+$mac-border: #ecf0f1;
+$mac-border-width: 1px solid;
+$mac-text: #FFF;
+
+.term-mac {
+	width: 500px;
+	margin: 50px auto;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+	header#term_header {
+		padding: 5px 0;
+		color: $mac-main;
+		text-align: center;
+		background-color: $mac-secondary;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		border: $mac-border-width $mac-secondary;
+
+		h6 {
+			margin: 0;
+			font-size: 14px;
+		}
+	}
+
+	div#term_body {
+		height: 350px;
+		padding: 5px 5px 30px;
+		border: $mac-border-width $mac-secondary;
+		border-top: none;
+		background-color: $mac-main;
+
+		input#typed_command {
+			border: none;
+			color: $mac-text;
+			background-color: transparent;
+
+			&:focus{
+			    outline: none;
+			}
+		}
+
+		.term-response-line {
+			color: $mac-third;
+
+			.term-username {
+				color: $mac-text;
+			}
+		}
+
+		.term-username {
+			font-weight: 700;
+		}
+	}
+}
