@@ -1,0 +1,73 @@
+body {
+  color: #ecf0f1;
+  background-color: #1abc9c; }
+  body#sudo_rm_r {
+    color: #555;
+    background-color: #FFF;
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 50px;
+    text-align: center; }
+
+.term-ubuntu {
+  width: 500px;
+  margin: 50px auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; }
+  .term-ubuntu header#term_header {
+    padding: 5px 0;
+    text-align: center;
+    background-color: #464641;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid #464641; }
+    .term-ubuntu header#term_header h6 {
+      margin: 0;
+      font-size: 14px; }
+  .term-ubuntu div#term_body {
+    height: 350px;
+    padding: 5px 5px 30px;
+    border: 1px solid #464641;
+    border-top: none;
+    background-color: #300924; }
+    .term-ubuntu div#term_body input#typed_command {
+      border: none;
+      color: #FFF;
+      background-color: transparent; }
+      .term-ubuntu div#term_body input#typed_command:focus {
+        outline: none; }
+
+.term-mac {
+  width: 500px;
+  margin: 50px auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; }
+  .term-mac header#term_header {
+    padding: 5px 0;
+    color: #505254;
+    text-align: center;
+    background-color: #E7E7E7;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid #E7E7E7; }
+    .term-mac header#term_header h6 {
+      margin: 0;
+      font-size: 14px; }
+  .term-mac div#term_body {
+    height: 350px;
+    padding: 5px 5px 30px;
+    border: 1px solid #E7E7E7;
+    border-top: none;
+    background-color: #505254; }
+    .term-mac div#term_body input#typed_command {
+      border: none;
+      color: #FFF;
+      background-color: transparent; }
+      .term-mac div#term_body input#typed_command:focus {
+        outline: none; }
+    .term-mac div#term_body .term-response-line {
+      color: #E16662; }
+      .term-mac div#term_body .term-response-line .term-username {
+        color: #FFF; }
+    .term-mac div#term_body .term-username {
+      font-weight: 700; }
