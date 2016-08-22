@@ -40,7 +40,7 @@
 
         var arrow_up = 0;
 
-        active_line.addEventListener("keyup", function() {
+        active_line.addEventListener("keyup", function(event) {
 
             if (event.which == 13 || event.keyCode == 13) {
                 var executed = executeCommand(active_line.value);
